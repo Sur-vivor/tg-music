@@ -14,10 +14,10 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/Miss_meenuus_bot"
+                        "SOURCE CODE👻", url="https://t.me/Miss_meenuus_bot"
                     ),
                     InlineKeyboardButton(
-                        "DEV", url="https://t.me/danger_of_telegram"
+                        "DEV❤", url="https://t.me/danger_of_telegram"
                     )
                 ]
             ]
