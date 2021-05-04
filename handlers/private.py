@@ -7,6 +7,7 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
+    message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
     await message.reply_text(
         f"""[★](https://telegra.ph/file/8659dbdff98d2f4512b1f.jpg)I am **{bn}** A telegram voice chat bot for playing songs in your group voice chat
         """,
